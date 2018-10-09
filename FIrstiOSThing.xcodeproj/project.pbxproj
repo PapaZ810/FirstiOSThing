@@ -54,14 +54,22 @@
 		CD18098E216D2140004D8AA4 /* FIrstiOSThing */ = {
 			isa = PBXGroup;
 			children = (
-				CD18098F216D2140004D8AA4 /* AppDelegate.swift */,
+				CD1809A1216D241A004D8AA4 /* Resources */,
 				CD180991216D2140004D8AA4 /* ViewController.swift */,
 				CD180993216D2140004D8AA4 /* Main.storyboard */,
-				CD180996216D214C004D8AA4 /* Assets.xcassets */,
 				CD180998216D214C004D8AA4 /* LaunchScreen.storyboard */,
-				CD18099B216D214C004D8AA4 /* Info.plist */,
 			);
 			path = FIrstiOSThing;
+			sourceTree = "<group>";
+		};
+		CD1809A1216D241A004D8AA4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CD18098F216D2140004D8AA4 /* AppDelegate.swift */,
+				CD180996216D214C004D8AA4 /* Assets.xcassets */,
+				CD18099B216D214C004D8AA4 /* Info.plist */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,7 +289,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIrstiOSThing/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FIrstiOSThing/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +306,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FIrstiOSThing/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/FIrstiOSThing/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
