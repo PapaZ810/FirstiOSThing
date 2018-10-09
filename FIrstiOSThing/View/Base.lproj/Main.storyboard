@@ -22,16 +22,21 @@
                                 <rect key="frame" x="45" y="222" width="285" height="223"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="colorClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="KVb-3L-W4F"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="firstButton" destination="ibL-ox-1Yy" id="R6q-y2-iQ3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="24.800000000000001" y="31.934032983508249"/>
         </scene>
     </scenes>
-    <color key="tintColor" red="0.0" green="0.77598769430051817" blue="0.71288342075491251" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
 </document>
